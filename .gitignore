@@ -4,11 +4,6 @@
 fine_tuned_model/
 distilbert-sentiment/
 
-# ── Generated plots ───────────────────────────────────────────────────────────
-# Recreated every notebook run — no need to version them
-outputs/
-*.png
-
 # ── Python virtual environment ────────────────────────────────────────────────
 .venv/
 venv/
