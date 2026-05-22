@@ -1,0 +1,29 @@
+# ── Model outputs ─────────────────────────────────────────────────────────────
+# Fine-tuned weights, tokenizer files, and training checkpoints
+# These are large binary files — host on HuggingFace Hub instead
+fine_tuned_model/
+distilbert-sentiment/
+
+# ── Generated plots ───────────────────────────────────────────────────────────
+# Recreated every notebook run — no need to version them
+outputs/
+*.png
+
+# ── Python virtual environment ────────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+
+# ── Data (optional — uncomment if you don't want raw data in the repo) ────────
+# data/
